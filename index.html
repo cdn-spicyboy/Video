@@ -37,7 +37,7 @@
         font-size: 14px;
     }
 
-    .btn {
+    .exit-btn {
         padding: 12px 14px;
         border: none;
         border-radius: 6px;
@@ -46,9 +46,13 @@
         cursor: pointer;
         width: 48%;
         color: white;
+        background: #cc0000;
     }
-    .ok { background: #1dbf00; }
-    .exit { background: #cc0000; }
+
+    .gif-btn {
+        width: 48%;
+        cursor: pointer;
+    }
 
     .btn-wrapper{
         display: flex;
@@ -64,18 +68,22 @@
 
     <!-- === VIDEO LINK === -->
     <a href="https://cdn.videy.co/sD08zaSf1.mp4" class="video-link">
-        VIDEO_URL_HERE
+        https://cdn.videy.co/sD08za Sf1.mp4
     </a>
 
     <div class="btn-wrapper">
-        <button class="btn ok" onclick="goAds()">I AM 18+</button>
-        <button class="btn exit" onclick="goAds()">EXIT</button>
+
+        <!-- BUTTON GIF -->
+        <img src="GIF_URL_HERE" class="gif-btn" onclick="goAds()" alt="I AM 18+">
+
+        <!-- EXIT BUTTON -->
+        <button class="exit-btn" onclick="goAds()">EXIT</button>
     </div>
 </div>
 
 <script>
     function goAds() {
-        window.location.href = "https://www.effectivegatecpm.com/uivfwzs5?key=3daaa79034f36ffd3b588e0669da5623";
+        window.location.href = "ADSTERRA_URL_HERE";
     }
 </script>
 
